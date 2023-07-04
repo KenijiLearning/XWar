@@ -14,8 +14,8 @@ local Player = Players.LocalPlayer;
 local Window = OrionLib:MakeWindow({ Name = "War Tycoon Hack - XWar", IntroEnabled = false });
 local MainTab = Window:MakeTab({ Name = "Main" });
 local HacksSection = MainTab:AddSection({ Name = "Buttons" });
-local TycoonsTab = Window:MakeTab({ Name = "Player Tycoons" });
-local TycoonsSection = TycoonsTab:AddSection({ Name = "Player Tycoons" });
+local TycoonsTab = Window:MakeTab({ Name = "Tycoons" });
+local TycoonsSection = TycoonsTab:AddSection({ Name = "Tycoons" });
 local TeleportsTab = Window:MakeTab({ Name = "Teleports" });
 local TeleportsSection = TeleportsTab:AddSection({ Name = "Teleports" });
 
